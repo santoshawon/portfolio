@@ -1,0 +1,31 @@
+// color
+$pcolor: #eb7966; 
+$scolore: #f4c9c2;
+$bgcolor: #f9ebea;
+$whitecolor: #fff;
+$bkcolorl: #11184f;
+
+// font weight
+$fontwsm: 400;
+$fontwmd: 600;
+$fontwlx: 800;
+
+body, p{
+    font {
+        size: 16px;
+        weight: $fontwsm;
+    }
+}
+
+p{
+    margin:0 0 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: $fontwmd;
+    margin:0 0 15px;
+    line-height: 1.2em;
+}
+
+//paddings
+$paddingsm: 10px 0;
